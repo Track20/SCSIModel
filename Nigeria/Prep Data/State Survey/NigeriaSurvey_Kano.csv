@@ -1,0 +1,8 @@
+"division_numeric_code","start_date","end_date","is_in_union","age_range","data_series_type","group_type_relative_to_baseline","contraceptive_use_modern","contraceptive_use_traditional","contraceptive_use_any","unmet_need_modern","unmet_need_any","is_pertaining_to_methods_used_since_last_pregnancy","pertaining_to_methods_used_since_last_pregnancy_reason","has_geographical_region_bias","geographical_region_bias_reason","has_non_pregnant_and_other_positive_biases","non_pregnant_and_other_positive_biases_reason","age_group_bias","modern_method_bias","has_traditional_method_bias","traditional_method_bias_reason","has_absence_of_probing_questions_bias","se_modern","se_traditional","se_unmet_need","se_log_r_modern_no_use","se_log_r_traditional_no_use","se_log_r_unmet_no_need","source_id","record_id","region_code"
+566,2003.1616,2003.663,"Y","15-49","DHS","MW",0.076,0.015,0.091,,0.088,"N",,"N",,"N",,"None","None","N",,"N",,,,,,,1884,"Y_988","Kano"
+566,2008.4153,2008.8306,"Y","15-49","DHS","MW",0.02,0.002,0.022,,0.287,"N",,"N",,"N",,"None","None","N",,"N",,,,,,,4695,"Y_1380","Kano"
+566,2013.0849,2013.4932,"Y","15-49","DHS","MW",0.005,0,0.006,,0.111,"N",,"N",,"N",,"None","None","N",,"N",,,,,,,5447,"Y_1601","Kano"
+566,2018.6164,2018.9918,"Y","15-49","DHS","MW",0.056,0.002,0.063,,0.165,"N",,"N",,"N",,"None","None","N",,"N",,,,,,,7628,"Y_1849","Kano"
+566,2007.1616,2007.2849,"Y","15-49","MICS","MW",0.003,0.003,0.006,,0.149,"N",,"N",,"N",,"None","None","N",,"Y",,,,,,,2478,"Y_1071","Kano"
+566,2011.0849,2011.2438,"Y","15-49","MICS","MW",0.007,0,0.007,,0.176,"N",,"N",,"N",,"None","None","N",,"Y",,,,,,,5018,"Y_1449","Kano"
+566,2016.6667,2017.0822,"Y","15-49","MICS","MW",0.057,0.006,0.063,,0.308,"N",,"N",,"N",,"None","None","N",,"Y",,,,,,,5640,"Y_1663","Kano"

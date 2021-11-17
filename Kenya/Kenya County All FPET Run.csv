@@ -1,0 +1,1458 @@
+year,percentile,contraceptive_use_modern,region_code,Population
+2000,50%,0.157005723,Baringo County,All
+2001,50%,0.163605548,Baringo County,All
+2002,50%,0.170335377,Baringo County,All
+2003,50%,0.177151706,Baringo County,All
+2004,50%,0.184717044,Baringo County,All
+2005,50%,0.193659903,Baringo County,All
+2006,50%,0.20197113,Baringo County,All
+2007,50%,0.209757008,Baringo County,All
+2008,50%,0.218647829,Baringo County,All
+2009,50%,0.223977928,Baringo County,All
+2010,50%,0.228188359,Baringo County,All
+2011,50%,0.233144102,Baringo County,All
+2012,50%,0.238541377,Baringo County,All
+2013,50%,0.243865274,Baringo County,All
+2014,50%,0.248550202,Baringo County,All
+2015,50%,0.256287088,Baringo County,All
+2016,50%,0.264160326,Baringo County,All
+2017,50%,0.271765975,Baringo County,All
+2018,50%,0.279599782,Baringo County,All
+2019,50%,0.286611601,Baringo County,All
+2020,50%,0.292846989,Baringo County,All
+2021,50%,0.299640088,Baringo County,All
+2022,50%,0.307158533,Baringo County,All
+2023,50%,0.314271036,Baringo County,All
+2024,50%,0.319743723,Baringo County,All
+2025,50%,0.325731579,Baringo County,All
+2026,50%,0.331000784,Baringo County,All
+2027,50%,0.338424865,Baringo County,All
+2028,50%,0.343876473,Baringo County,All
+2029,50%,0.349712036,Baringo County,All
+2030,50%,0.357792528,Baringo County,All
+2000,50%,0.192642296,Bomet County,All
+2001,50%,0.200991989,Bomet County,All
+2002,50%,0.208625503,Bomet County,All
+2003,50%,0.215783703,Bomet County,All
+2004,50%,0.218349544,Bomet County,All
+2005,50%,0.220580739,Bomet County,All
+2006,50%,0.223799282,Bomet County,All
+2007,50%,0.227427224,Bomet County,All
+2008,50%,0.233476352,Bomet County,All
+2009,50%,0.250539984,Bomet County,All
+2010,50%,0.269504923,Bomet County,All
+2011,50%,0.288663575,Bomet County,All
+2012,50%,0.309002248,Bomet County,All
+2013,50%,0.327747805,Bomet County,All
+2014,50%,0.344617743,Bomet County,All
+2015,50%,0.353324696,Bomet County,All
+2016,50%,0.362002954,Bomet County,All
+2017,50%,0.368853337,Bomet County,All
+2018,50%,0.374547992,Bomet County,All
+2019,50%,0.37957261,Bomet County,All
+2020,50%,0.383662191,Bomet County,All
+2021,50%,0.388883556,Bomet County,All
+2022,50%,0.39426824,Bomet County,All
+2023,50%,0.399039828,Bomet County,All
+2024,50%,0.40253883,Bomet County,All
+2025,50%,0.406491924,Bomet County,All
+2026,50%,0.412016513,Bomet County,All
+2027,50%,0.414954983,Bomet County,All
+2028,50%,0.418510299,Bomet County,All
+2029,50%,0.423034057,Bomet County,All
+2030,50%,0.426921092,Bomet County,All
+2000,50%,0.137937592,Bungoma County,All
+2001,50%,0.148237998,Bungoma County,All
+2002,50%,0.158978103,Bungoma County,All
+2003,50%,0.171637202,Bungoma County,All
+2004,50%,0.189794938,Bungoma County,All
+2005,50%,0.209257879,Bungoma County,All
+2006,50%,0.229366784,Bungoma County,All
+2007,50%,0.24998351,Bungoma County,All
+2008,50%,0.269357035,Bungoma County,All
+2009,50%,0.289332234,Bungoma County,All
+2010,50%,0.307539811,Bungoma County,All
+2011,50%,0.32516082,Bungoma County,All
+2012,50%,0.343215545,Bungoma County,All
+2013,50%,0.362674172,Bungoma County,All
+2014,50%,0.385665226,Bungoma County,All
+2015,50%,0.415729802,Bungoma County,All
+2016,50%,0.43363821,Bungoma County,All
+2017,50%,0.443417407,Bungoma County,All
+2018,50%,0.446802864,Bungoma County,All
+2019,50%,0.450708617,Bungoma County,All
+2020,50%,0.45288627,Bungoma County,All
+2021,50%,0.455914863,Bungoma County,All
+2022,50%,0.458064892,Bungoma County,All
+2023,50%,0.461001662,Bungoma County,All
+2024,50%,0.464733519,Bungoma County,All
+2025,50%,0.467895655,Bungoma County,All
+2026,50%,0.470957448,Bungoma County,All
+2027,50%,0.473632435,Bungoma County,All
+2028,50%,0.476730487,Bungoma County,All
+2029,50%,0.479422297,Bungoma County,All
+2030,50%,0.482742462,Bungoma County,All
+2000,50%,0.134069681,Busia County,All
+2001,50%,0.1433359,Busia County,All
+2002,50%,0.153287387,Busia County,All
+2003,50%,0.164564603,Busia County,All
+2004,50%,0.180118737,Busia County,All
+2005,50%,0.196839013,Busia County,All
+2006,50%,0.21504553,Busia County,All
+2007,50%,0.234015536,Busia County,All
+2008,50%,0.255020658,Busia County,All
+2009,50%,0.279933543,Busia County,All
+2010,50%,0.305759878,Busia County,All
+2011,50%,0.331974828,Busia County,All
+2012,50%,0.357423884,Busia County,All
+2013,50%,0.381609505,Busia County,All
+2014,50%,0.402107732,Busia County,All
+2015,50%,0.412555898,Busia County,All
+2016,50%,0.420730792,Busia County,All
+2017,50%,0.427601078,Busia County,All
+2018,50%,0.432342765,Busia County,All
+2019,50%,0.43813675,Busia County,All
+2020,50%,0.442957895,Busia County,All
+2021,50%,0.446712124,Busia County,All
+2022,50%,0.450949542,Busia County,All
+2023,50%,0.455294591,Busia County,All
+2024,50%,0.458466063,Busia County,All
+2025,50%,0.461687525,Busia County,All
+2026,50%,0.465982174,Busia County,All
+2027,50%,0.469288099,Busia County,All
+2028,50%,0.473069819,Busia County,All
+2029,50%,0.475471351,Busia County,All
+2030,50%,0.478613647,Busia County,All
+2000,50%,0.149247984,Elgeyo Marakwet County,All
+2001,50%,0.157822876,Elgeyo Marakwet County,All
+2002,50%,0.166378706,Elgeyo Marakwet County,All
+2003,50%,0.175889984,Elgeyo Marakwet County,All
+2004,50%,0.187426345,Elgeyo Marakwet County,All
+2005,50%,0.199802267,Elgeyo Marakwet County,All
+2006,50%,0.212891794,Elgeyo Marakwet County,All
+2007,50%,0.226833115,Elgeyo Marakwet County,All
+2008,50%,0.241881998,Elgeyo Marakwet County,All
+2009,50%,0.256762549,Elgeyo Marakwet County,All
+2010,50%,0.271635052,Elgeyo Marakwet County,All
+2011,50%,0.286866531,Elgeyo Marakwet County,All
+2012,50%,0.302622678,Elgeyo Marakwet County,All
+2013,50%,0.318311707,Elgeyo Marakwet County,All
+2014,50%,0.332010245,Elgeyo Marakwet County,All
+2015,50%,0.343400262,Elgeyo Marakwet County,All
+2016,50%,0.352131724,Elgeyo Marakwet County,All
+2017,50%,0.360254926,Elgeyo Marakwet County,All
+2018,50%,0.366584549,Elgeyo Marakwet County,All
+2019,50%,0.372371981,Elgeyo Marakwet County,All
+2020,50%,0.37881856,Elgeyo Marakwet County,All
+2021,50%,0.386160688,Elgeyo Marakwet County,All
+2022,50%,0.39108373,Elgeyo Marakwet County,All
+2023,50%,0.397794539,Elgeyo Marakwet County,All
+2024,50%,0.402962579,Elgeyo Marakwet County,All
+2025,50%,0.408239618,Elgeyo Marakwet County,All
+2026,50%,0.414419681,Elgeyo Marakwet County,All
+2027,50%,0.418660444,Elgeyo Marakwet County,All
+2028,50%,0.422817347,Elgeyo Marakwet County,All
+2029,50%,0.427919879,Elgeyo Marakwet County,All
+2030,50%,0.434298921,Elgeyo Marakwet County,All
+2000,50%,0.3980451,Embu County,All
+2001,50%,0.407265686,Embu County,All
+2002,50%,0.415729874,Embu County,All
+2003,50%,0.422483255,Embu County,All
+2004,50%,0.426338379,Embu County,All
+2005,50%,0.428818528,Embu County,All
+2006,50%,0.430619112,Embu County,All
+2007,50%,0.432460855,Embu County,All
+2008,50%,0.434721138,Embu County,All
+2009,50%,0.439619181,Embu County,All
+2010,50%,0.444293535,Embu County,All
+2011,50%,0.44901802,Embu County,All
+2012,50%,0.453474158,Embu County,All
+2013,50%,0.456611414,Embu County,All
+2014,50%,0.459468934,Embu County,All
+2015,50%,0.462218528,Embu County,All
+2016,50%,0.46408343,Embu County,All
+2017,50%,0.466576542,Embu County,All
+2018,50%,0.467864132,Embu County,All
+2019,50%,0.469593654,Embu County,All
+2020,50%,0.470867951,Embu County,All
+2021,50%,0.473363285,Embu County,All
+2022,50%,0.473161186,Embu County,All
+2023,50%,0.474311409,Embu County,All
+2024,50%,0.475894585,Embu County,All
+2025,50%,0.477888827,Embu County,All
+2026,50%,0.479810628,Embu County,All
+2027,50%,0.482755243,Embu County,All
+2028,50%,0.485083263,Embu County,All
+2029,50%,0.486697253,Embu County,All
+2030,50%,0.487481061,Embu County,All
+2000,50%,0.017915871,Garissa County,All
+2001,50%,0.01941632,Garissa County,All
+2002,50%,0.021060468,Garissa County,All
+2003,50%,0.023628482,Garissa County,All
+2004,50%,0.029490738,Garissa County,All
+2005,50%,0.038492898,Garissa County,All
+2006,50%,0.050276439,Garissa County,All
+2007,50%,0.064249026,Garissa County,All
+2008,50%,0.075914147,Garissa County,All
+2009,50%,0.07589839,Garissa County,All
+2010,50%,0.069945547,Garissa County,All
+2011,50%,0.061962494,Garissa County,All
+2012,50%,0.053853589,Garissa County,All
+2013,50%,0.0470447,Garissa County,All
+2014,50%,0.042361317,Garissa County,All
+2015,50%,0.041294419,Garissa County,All
+2016,50%,0.041877993,Garissa County,All
+2017,50%,0.043339409,Garissa County,All
+2018,50%,0.045292297,Garissa County,All
+2019,50%,0.047328567,Garissa County,All
+2020,50%,0.049857964,Garissa County,All
+2021,50%,0.052299985,Garissa County,All
+2022,50%,0.055097023,Garissa County,All
+2023,50%,0.057691986,Garissa County,All
+2024,50%,0.060733391,Garissa County,All
+2025,50%,0.063303872,Garissa County,All
+2026,50%,0.066544772,Garissa County,All
+2027,50%,0.069879033,Garissa County,All
+2028,50%,0.073145247,Garissa County,All
+2029,50%,0.076287208,Garissa County,All
+2030,50%,0.079653457,Garissa County,All
+2000,50%,0.121512749,Homa Bay County,All
+2001,50%,0.128218987,Homa Bay County,All
+2002,50%,0.136425248,Homa Bay County,All
+2003,50%,0.146592548,Homa Bay County,All
+2004,50%,0.160446131,Homa Bay County,All
+2005,50%,0.177870985,Homa Bay County,All
+2006,50%,0.197291721,Homa Bay County,All
+2007,50%,0.218072695,Homa Bay County,All
+2008,50%,0.238639276,Homa Bay County,All
+2009,50%,0.261637303,Homa Bay County,All
+2010,50%,0.282899628,Homa Bay County,All
+2011,50%,0.303265135,Homa Bay County,All
+2012,50%,0.322219869,Homa Bay County,All
+2013,50%,0.339768638,Homa Bay County,All
+2014,50%,0.355368445,Homa Bay County,All
+2015,50%,0.366669636,Homa Bay County,All
+2016,50%,0.375840969,Homa Bay County,All
+2017,50%,0.385428987,Homa Bay County,All
+2018,50%,0.392706484,Homa Bay County,All
+2019,50%,0.399657126,Homa Bay County,All
+2020,50%,0.406856088,Homa Bay County,All
+2021,50%,0.414030091,Homa Bay County,All
+2022,50%,0.418978131,Homa Bay County,All
+2023,50%,0.42343212,Homa Bay County,All
+2024,50%,0.428156272,Homa Bay County,All
+2025,50%,0.434298787,Homa Bay County,All
+2026,50%,0.439374916,Homa Bay County,All
+2027,50%,0.444430501,Homa Bay County,All
+2028,50%,0.449217032,Homa Bay County,All
+2029,50%,0.455083472,Homa Bay County,All
+2030,50%,0.460102718,Homa Bay County,All
+2000,50%,0.201856733,Isiolo County,All
+2001,50%,0.208788089,Isiolo County,All
+2002,50%,0.215445832,Isiolo County,All
+2003,50%,0.222443204,Isiolo County,All
+2004,50%,0.228040846,Isiolo County,All
+2005,50%,0.234027988,Isiolo County,All
+2006,50%,0.239200628,Isiolo County,All
+2007,50%,0.24364982,Isiolo County,All
+2008,50%,0.245039166,Isiolo County,All
+2009,50%,0.243564386,Isiolo County,All
+2010,50%,0.239417625,Isiolo County,All
+2011,50%,0.233294291,Isiolo County,All
+2012,50%,0.227389979,Isiolo County,All
+2013,50%,0.222891126,Isiolo County,All
+2014,50%,0.220820067,Isiolo County,All
+2015,50%,0.222331488,Isiolo County,All
+2016,50%,0.226473555,Isiolo County,All
+2017,50%,0.232065231,Isiolo County,All
+2018,50%,0.237712073,Isiolo County,All
+2019,50%,0.243871542,Isiolo County,All
+2020,50%,0.251491899,Isiolo County,All
+2021,50%,0.258453143,Isiolo County,All
+2022,50%,0.265299598,Isiolo County,All
+2023,50%,0.271444865,Isiolo County,All
+2024,50%,0.27729866,Isiolo County,All
+2025,50%,0.283628822,Isiolo County,All
+2026,50%,0.291191478,Isiolo County,All
+2027,50%,0.29767991,Isiolo County,All
+2028,50%,0.303234617,Isiolo County,All
+2029,50%,0.30883579,Isiolo County,All
+2030,50%,0.314581661,Isiolo County,All
+2000,50%,0.203338783,Kajiado County,All
+2001,50%,0.21268667,Kajiado County,All
+2002,50%,0.223613472,Kajiado County,All
+2003,50%,0.2322458,Kajiado County,All
+2004,50%,0.246623506,Kajiado County,All
+2005,50%,0.259657592,Kajiado County,All
+2006,50%,0.272740442,Kajiado County,All
+2007,50%,0.285033978,Kajiado County,All
+2008,50%,0.297333946,Kajiado County,All
+2009,50%,0.305907452,Kajiado County,All
+2010,50%,0.314771761,Kajiado County,All
+2011,50%,0.323540972,Kajiado County,All
+2012,50%,0.332762029,Kajiado County,All
+2013,50%,0.341808728,Kajiado County,All
+2014,50%,0.350467608,Kajiado County,All
+2015,50%,0.358426051,Kajiado County,All
+2016,50%,0.3660726,Kajiado County,All
+2017,50%,0.371456088,Kajiado County,All
+2018,50%,0.377191201,Kajiado County,All
+2019,50%,0.382558954,Kajiado County,All
+2020,50%,0.388475864,Kajiado County,All
+2021,50%,0.393326657,Kajiado County,All
+2022,50%,0.398366105,Kajiado County,All
+2023,50%,0.402471049,Kajiado County,All
+2024,50%,0.407684215,Kajiado County,All
+2025,50%,0.412869752,Kajiado County,All
+2026,50%,0.417308092,Kajiado County,All
+2027,50%,0.42277321,Kajiado County,All
+2028,50%,0.42785826,Kajiado County,All
+2029,50%,0.431867695,Kajiado County,All
+2030,50%,0.435393901,Kajiado County,All
+2000,50%,0.170685895,Kakamega County,All
+2001,50%,0.17968041,Kakamega County,All
+2002,50%,0.189489875,Kakamega County,All
+2003,50%,0.200040373,Kakamega County,All
+2004,50%,0.214296342,Kakamega County,All
+2005,50%,0.23027977,Kakamega County,All
+2006,50%,0.247365099,Kakamega County,All
+2007,50%,0.266512221,Kakamega County,All
+2008,50%,0.285923619,Kakamega County,All
+2009,50%,0.307563213,Kakamega County,All
+2010,50%,0.3307513,Kakamega County,All
+2011,50%,0.354438973,Kakamega County,All
+2012,50%,0.378267558,Kakamega County,All
+2013,50%,0.40153029,Kakamega County,All
+2014,50%,0.425669608,Kakamega County,All
+2015,50%,0.453003168,Kakamega County,All
+2016,50%,0.477655348,Kakamega County,All
+2017,50%,0.493026992,Kakamega County,All
+2018,50%,0.490974229,Kakamega County,All
+2019,50%,0.473383187,Kakamega County,All
+2020,50%,0.469024122,Kakamega County,All
+2021,50%,0.46827654,Kakamega County,All
+2022,50%,0.469790217,Kakamega County,All
+2023,50%,0.471770187,Kakamega County,All
+2024,50%,0.474909909,Kakamega County,All
+2025,50%,0.477439003,Kakamega County,All
+2026,50%,0.480539343,Kakamega County,All
+2027,50%,0.48352565,Kakamega County,All
+2028,50%,0.485892866,Kakamega County,All
+2029,50%,0.49036227,Kakamega County,All
+2030,50%,0.492898611,Kakamega County,All
+2000,50%,0.182941412,Kericho County,All
+2001,50%,0.191556724,Kericho County,All
+2002,50%,0.200782565,Kericho County,All
+2003,50%,0.210159778,Kericho County,All
+2004,50%,0.219490483,Kericho County,All
+2005,50%,0.229268727,Kericho County,All
+2006,50%,0.239570477,Kericho County,All
+2007,50%,0.250895933,Kericho County,All
+2008,50%,0.265065855,Kericho County,All
+2009,50%,0.287690204,Kericho County,All
+2010,50%,0.311637665,Kericho County,All
+2011,50%,0.336385506,Kericho County,All
+2012,50%,0.361384686,Kericho County,All
+2013,50%,0.386484731,Kericho County,All
+2014,50%,0.413587989,Kericho County,All
+2015,50%,0.44395791,Kericho County,All
+2016,50%,0.449730511,Kericho County,All
+2017,50%,0.443464436,Kericho County,All
+2018,50%,0.432896603,Kericho County,All
+2019,50%,0.430361914,Kericho County,All
+2020,50%,0.432978726,Kericho County,All
+2021,50%,0.438093266,Kericho County,All
+2022,50%,0.441664458,Kericho County,All
+2023,50%,0.445741778,Kericho County,All
+2024,50%,0.449893373,Kericho County,All
+2025,50%,0.453940466,Kericho County,All
+2026,50%,0.457547757,Kericho County,All
+2027,50%,0.460902423,Kericho County,All
+2028,50%,0.464495567,Kericho County,All
+2029,50%,0.467960138,Kericho County,All
+2030,50%,0.472831343,Kericho County,All
+2000,50%,0.354014851,Kiambu County,All
+2001,50%,0.363308001,Kiambu County,All
+2002,50%,0.371364361,Kiambu County,All
+2003,50%,0.37743783,Kiambu County,All
+2004,50%,0.380271908,Kiambu County,All
+2005,50%,0.382538476,Kiambu County,All
+2006,50%,0.384385899,Kiambu County,All
+2007,50%,0.387182561,Kiambu County,All
+2008,50%,0.393266671,Kiambu County,All
+2009,50%,0.406399476,Kiambu County,All
+2010,50%,0.420915881,Kiambu County,All
+2011,50%,0.435858054,Kiambu County,All
+2012,50%,0.450114523,Kiambu County,All
+2013,50%,0.460784234,Kiambu County,All
+2014,50%,0.467830268,Kiambu County,All
+2015,50%,0.469769251,Kiambu County,All
+2016,50%,0.471367031,Kiambu County,All
+2017,50%,0.48126131,Kiambu County,All
+2018,50%,0.47860058,Kiambu County,All
+2019,50%,0.475754336,Kiambu County,All
+2020,50%,0.47627088,Kiambu County,All
+2021,50%,0.478155925,Kiambu County,All
+2022,50%,0.480032158,Kiambu County,All
+2023,50%,0.482363005,Kiambu County,All
+2024,50%,0.484135244,Kiambu County,All
+2025,50%,0.486201001,Kiambu County,All
+2026,50%,0.489636862,Kiambu County,All
+2027,50%,0.492501163,Kiambu County,All
+2028,50%,0.495250553,Kiambu County,All
+2029,50%,0.497703334,Kiambu County,All
+2030,50%,0.500749148,Kiambu County,All
+2000,50%,0.124149084,Kilifi County,All
+2001,50%,0.13073023,Kilifi County,All
+2002,50%,0.138108346,Kilifi County,All
+2003,50%,0.146061113,Kilifi County,All
+2004,50%,0.156430002,Kilifi County,All
+2005,50%,0.166940269,Kilifi County,All
+2006,50%,0.177499769,Kilifi County,All
+2007,50%,0.187826301,Kilifi County,All
+2008,50%,0.198420634,Kilifi County,All
+2009,50%,0.207920391,Kilifi County,All
+2010,50%,0.216588227,Kilifi County,All
+2011,50%,0.225071098,Kilifi County,All
+2012,50%,0.23414241,Kilifi County,All
+2013,50%,0.245055389,Kilifi County,All
+2014,50%,0.260380794,Kilifi County,All
+2015,50%,0.286455698,Kilifi County,All
+2016,50%,0.302856075,Kilifi County,All
+2017,50%,0.314667775,Kilifi County,All
+2018,50%,0.33360204,Kilifi County,All
+2019,50%,0.346095571,Kilifi County,All
+2020,50%,0.354865751,Kilifi County,All
+2021,50%,0.362877193,Kilifi County,All
+2022,50%,0.37051395,Kilifi County,All
+2023,50%,0.376541009,Kilifi County,All
+2024,50%,0.3828839,Kilifi County,All
+2025,50%,0.388634087,Kilifi County,All
+2026,50%,0.394527519,Kilifi County,All
+2027,50%,0.400511429,Kilifi County,All
+2028,50%,0.405936839,Kilifi County,All
+2029,50%,0.412342575,Kilifi County,All
+2030,50%,0.417206985,Kilifi County,All
+2000,50%,0.405823341,Kirinyaga County,All
+2001,50%,0.415956103,Kirinyaga County,All
+2002,50%,0.424859799,Kirinyaga County,All
+2003,50%,0.43243613,Kirinyaga County,All
+2004,50%,0.440041905,Kirinyaga County,All
+2005,50%,0.446614052,Kirinyaga County,All
+2006,50%,0.453732779,Kirinyaga County,All
+2007,50%,0.462749614,Kirinyaga County,All
+2008,50%,0.473748473,Kirinyaga County,All
+2009,50%,0.487139931,Kirinyaga County,All
+2010,50%,0.50180909,Kirinyaga County,All
+2011,50%,0.516540713,Kirinyaga County,All
+2012,50%,0.531999638,Kirinyaga County,All
+2013,50%,0.544384667,Kirinyaga County,All
+2014,50%,0.554562935,Kirinyaga County,All
+2015,50%,0.561085568,Kirinyaga County,All
+2016,50%,0.56500545,Kirinyaga County,All
+2017,50%,0.566716462,Kirinyaga County,All
+2018,50%,0.567570494,Kirinyaga County,All
+2019,50%,0.568674419,Kirinyaga County,All
+2020,50%,0.570566277,Kirinyaga County,All
+2021,50%,0.570761784,Kirinyaga County,All
+2022,50%,0.571785697,Kirinyaga County,All
+2023,50%,0.572541288,Kirinyaga County,All
+2024,50%,0.574118675,Kirinyaga County,All
+2025,50%,0.574657363,Kirinyaga County,All
+2026,50%,0.576599804,Kirinyaga County,All
+2027,50%,0.577670527,Kirinyaga County,All
+2028,50%,0.578014448,Kirinyaga County,All
+2029,50%,0.579918228,Kirinyaga County,All
+2030,50%,0.582863271,Kirinyaga County,All
+2000,50%,0.190072323,Kisii County,All
+2001,50%,0.198298075,Kisii County,All
+2002,50%,0.207669212,Kisii County,All
+2003,50%,0.21680185,Kisii County,All
+2004,50%,0.225330931,Kisii County,All
+2005,50%,0.233905417,Kisii County,All
+2006,50%,0.242605998,Kisii County,All
+2007,50%,0.254249098,Kisii County,All
+2008,50%,0.268986356,Kisii County,All
+2009,50%,0.296279377,Kisii County,All
+2010,50%,0.326420924,Kisii County,All
+2011,50%,0.359098612,Kisii County,All
+2012,50%,0.390448343,Kisii County,All
+2013,50%,0.419230184,Kisii County,All
+2014,50%,0.443633375,Kisii County,All
+2015,50%,0.4561597,Kisii County,All
+2016,50%,0.464225842,Kisii County,All
+2017,50%,0.469725208,Kisii County,All
+2018,50%,0.473826002,Kisii County,All
+2019,50%,0.476963038,Kisii County,All
+2020,50%,0.480829774,Kisii County,All
+2021,50%,0.484191084,Kisii County,All
+2022,50%,0.485623185,Kisii County,All
+2023,50%,0.48918321,Kisii County,All
+2024,50%,0.492422737,Kisii County,All
+2025,50%,0.495224953,Kisii County,All
+2026,50%,0.497113859,Kisii County,All
+2027,50%,0.501289469,Kisii County,All
+2028,50%,0.502980395,Kisii County,All
+2029,50%,0.506172268,Kisii County,All
+2030,50%,0.509028978,Kisii County,All
+2000,50%,0.14254701,Kisumu County,All
+2001,50%,0.151923177,Kisumu County,All
+2002,50%,0.161493575,Kisumu County,All
+2003,50%,0.172490937,Kisumu County,All
+2004,50%,0.188341757,Kisumu County,All
+2005,50%,0.205199224,Kisumu County,All
+2006,50%,0.223533739,Kisumu County,All
+2007,50%,0.24379181,Kisumu County,All
+2008,50%,0.264554308,Kisumu County,All
+2009,50%,0.28866137,Kisumu County,All
+2010,50%,0.314369168,Kisumu County,All
+2011,50%,0.339633206,Kisumu County,All
+2012,50%,0.362694534,Kisumu County,All
+2013,50%,0.38432077,Kisumu County,All
+2014,50%,0.403075336,Kisumu County,All
+2015,50%,0.414364218,Kisumu County,All
+2016,50%,0.422692588,Kisumu County,All
+2017,50%,0.42866702,Kisumu County,All
+2018,50%,0.433282059,Kisumu County,All
+2019,50%,0.438743295,Kisumu County,All
+2020,50%,0.443579377,Kisumu County,All
+2021,50%,0.447315243,Kisumu County,All
+2022,50%,0.450122247,Kisumu County,All
+2023,50%,0.454393563,Kisumu County,All
+2024,50%,0.457331441,Kisumu County,All
+2025,50%,0.461303378,Kisumu County,All
+2026,50%,0.465184631,Kisumu County,All
+2027,50%,0.468714359,Kisumu County,All
+2028,50%,0.471077017,Kisumu County,All
+2029,50%,0.475220228,Kisumu County,All
+2030,50%,0.47882338,Kisumu County,All
+2000,50%,0.158655949,Kitui County,All
+2001,50%,0.169778842,Kitui County,All
+2002,50%,0.180224651,Kitui County,All
+2003,50%,0.191069927,Kitui County,All
+2004,50%,0.205421205,Kitui County,All
+2005,50%,0.218789468,Kitui County,All
+2006,50%,0.23175774,Kitui County,All
+2007,50%,0.244475803,Kitui County,All
+2008,50%,0.259072366,Kitui County,All
+2009,50%,0.280267071,Kitui County,All
+2010,50%,0.303122949,Kitui County,All
+2011,50%,0.32746709,Kitui County,All
+2012,50%,0.354584699,Kitui County,All
+2013,50%,0.383669422,Kitui County,All
+2014,50%,0.419201056,Kitui County,All
+2015,50%,0.463895895,Kitui County,All
+2016,50%,0.474134443,Kitui County,All
+2017,50%,0.465689668,Kitui County,All
+2018,50%,0.458542179,Kitui County,All
+2019,50%,0.440280516,Kitui County,All
+2020,50%,0.434765033,Kitui County,All
+2021,50%,0.43366289,Kitui County,All
+2022,50%,0.435983569,Kitui County,All
+2023,50%,0.439273114,Kitui County,All
+2024,50%,0.442413907,Kitui County,All
+2025,50%,0.44591203,Kitui County,All
+2026,50%,0.449730087,Kitui County,All
+2027,50%,0.452889185,Kitui County,All
+2028,50%,0.454640951,Kitui County,All
+2029,50%,0.458043893,Kitui County,All
+2030,50%,0.461283667,Kitui County,All
+2000,50%,0.123480749,Kwale County,All
+2001,50%,0.130239282,Kwale County,All
+2002,50%,0.137743281,Kwale County,All
+2003,50%,0.147686717,Kwale County,All
+2004,50%,0.163587471,Kwale County,All
+2005,50%,0.180976104,Kwale County,All
+2006,50%,0.199509067,Kwale County,All
+2007,50%,0.219046986,Kwale County,All
+2008,50%,0.237302999,Kwale County,All
+2009,50%,0.249525752,Kwale County,All
+2010,50%,0.259459246,Kwale County,All
+2011,50%,0.267650721,Kwale County,All
+2012,50%,0.275119966,Kwale County,All
+2013,50%,0.282850973,Kwale County,All
+2014,50%,0.289633365,Kwale County,All
+2015,50%,0.297007889,Kwale County,All
+2016,50%,0.304979707,Kwale County,All
+2017,50%,0.312399561,Kwale County,All
+2018,50%,0.321178979,Kwale County,All
+2019,50%,0.329424368,Kwale County,All
+2020,50%,0.336581303,Kwale County,All
+2021,50%,0.342998394,Kwale County,All
+2022,50%,0.350136695,Kwale County,All
+2023,50%,0.356991141,Kwale County,All
+2024,50%,0.362620741,Kwale County,All
+2025,50%,0.367279606,Kwale County,All
+2026,50%,0.373958142,Kwale County,All
+2027,50%,0.379663885,Kwale County,All
+2028,50%,0.386341544,Kwale County,All
+2029,50%,0.390844272,Kwale County,All
+2030,50%,0.394998676,Kwale County,All
+2000,50%,0.243689175,Laikipia County,All
+2001,50%,0.250811959,Laikipia County,All
+2002,50%,0.259022151,Laikipia County,All
+2003,50%,0.26653652,Laikipia County,All
+2004,50%,0.274416776,Laikipia County,All
+2005,50%,0.281986634,Laikipia County,All
+2006,50%,0.289965294,Laikipia County,All
+2007,50%,0.298151353,Laikipia County,All
+2008,50%,0.306905854,Laikipia County,All
+2009,50%,0.315532674,Laikipia County,All
+2010,50%,0.325534678,Laikipia County,All
+2011,50%,0.33624167,Laikipia County,All
+2012,50%,0.346012183,Laikipia County,All
+2013,50%,0.355422405,Laikipia County,All
+2014,50%,0.362973006,Laikipia County,All
+2015,50%,0.370123231,Laikipia County,All
+2016,50%,0.376123464,Laikipia County,All
+2017,50%,0.381329066,Laikipia County,All
+2018,50%,0.38645679,Laikipia County,All
+2019,50%,0.390574305,Laikipia County,All
+2020,50%,0.395062797,Laikipia County,All
+2021,50%,0.397562207,Laikipia County,All
+2022,50%,0.400303032,Laikipia County,All
+2023,50%,0.403857672,Laikipia County,All
+2024,50%,0.406767259,Laikipia County,All
+2025,50%,0.410332826,Laikipia County,All
+2026,50%,0.41430437,Laikipia County,All
+2027,50%,0.418467084,Laikipia County,All
+2028,50%,0.422564133,Laikipia County,All
+2029,50%,0.42569464,Laikipia County,All
+2030,50%,0.429301896,Laikipia County,All
+2000,50%,0.064988013,Lamu County,All
+2001,50%,0.069006859,Lamu County,All
+2002,50%,0.073604112,Lamu County,All
+2003,50%,0.079656002,Lamu County,All
+2004,50%,0.089696561,Lamu County,All
+2005,50%,0.102715063,Lamu County,All
+2006,50%,0.118718784,Lamu County,All
+2007,50%,0.13677481,Lamu County,All
+2008,50%,0.156328918,Lamu County,All
+2009,50%,0.174184593,Lamu County,All
+2010,50%,0.190338094,Lamu County,All
+2011,50%,0.206490128,Lamu County,All
+2012,50%,0.222534183,Lamu County,All
+2013,50%,0.237369009,Lamu County,All
+2014,50%,0.251630773,Lamu County,All
+2015,50%,0.263203516,Lamu County,All
+2016,50%,0.273613911,Lamu County,All
+2017,50%,0.283143334,Lamu County,All
+2018,50%,0.291919529,Lamu County,All
+2019,50%,0.299606844,Lamu County,All
+2020,50%,0.307779804,Lamu County,All
+2021,50%,0.314526446,Lamu County,All
+2022,50%,0.321703924,Lamu County,All
+2023,50%,0.328750405,Lamu County,All
+2024,50%,0.334012911,Lamu County,All
+2025,50%,0.340125404,Lamu County,All
+2026,50%,0.344994232,Lamu County,All
+2027,50%,0.35001826,Lamu County,All
+2028,50%,0.355963654,Lamu County,All
+2029,50%,0.360369493,Lamu County,All
+2030,50%,0.36511761,Lamu County,All
+2000,50%,0.228000879,Machakos County,All
+2001,50%,0.239718003,Machakos County,All
+2002,50%,0.251091127,Machakos County,All
+2003,50%,0.261957269,Machakos County,All
+2004,50%,0.272429745,Machakos County,All
+2005,50%,0.281564377,Machakos County,All
+2006,50%,0.291263932,Machakos County,All
+2007,50%,0.304132055,Machakos County,All
+2008,50%,0.319354972,Machakos County,All
+2009,50%,0.344449169,Machakos County,All
+2010,50%,0.371692562,Machakos County,All
+2011,50%,0.400447499,Machakos County,All
+2012,50%,0.427776342,Machakos County,All
+2013,50%,0.453090116,Machakos County,All
+2014,50%,0.474566167,Machakos County,All
+2015,50%,0.485836273,Machakos County,All
+2016,50%,0.492938775,Machakos County,All
+2017,50%,0.498639823,Machakos County,All
+2018,50%,0.503675969,Machakos County,All
+2019,50%,0.5076786,Machakos County,All
+2020,50%,0.510039617,Machakos County,All
+2021,50%,0.512694535,Machakos County,All
+2022,50%,0.515714778,Machakos County,All
+2023,50%,0.517818502,Machakos County,All
+2024,50%,0.520025567,Machakos County,All
+2025,50%,0.523143455,Machakos County,All
+2026,50%,0.52504036,Machakos County,All
+2027,50%,0.528498775,Machakos County,All
+2028,50%,0.53223684,Machakos County,All
+2029,50%,0.53524391,Machakos County,All
+2030,50%,0.536705975,Machakos County,All
+2000,50%,0.142205243,Makueni County,All
+2001,50%,0.151454308,Makueni County,All
+2002,50%,0.160752936,Makueni County,All
+2003,50%,0.170268232,Makueni County,All
+2004,50%,0.182334937,Makueni County,All
+2005,50%,0.193255282,Makueni County,All
+2006,50%,0.203931219,Makueni County,All
+2007,50%,0.216272354,Makueni County,All
+2008,50%,0.233663125,Makueni County,All
+2009,50%,0.264344134,Makueni County,All
+2010,50%,0.301164707,Makueni County,All
+2011,50%,0.339334788,Makueni County,All
+2012,50%,0.377083216,Makueni County,All
+2013,50%,0.412706773,Makueni County,All
+2014,50%,0.441844453,Makueni County,All
+2015,50%,0.457753399,Makueni County,All
+2016,50%,0.468201466,Makueni County,All
+2017,50%,0.474580589,Makueni County,All
+2018,50%,0.481128138,Makueni County,All
+2019,50%,0.485547857,Makueni County,All
+2020,50%,0.490540761,Makueni County,All
+2021,50%,0.494547661,Makueni County,All
+2022,50%,0.499220134,Makueni County,All
+2023,50%,0.502074976,Makueni County,All
+2024,50%,0.506408812,Makueni County,All
+2025,50%,0.510383391,Makueni County,All
+2026,50%,0.514157609,Makueni County,All
+2027,50%,0.518806854,Makueni County,All
+2028,50%,0.522639951,Makueni County,All
+2029,50%,0.525542746,Makueni County,All
+2030,50%,0.5303264,Makueni County,All
+2000,50%,0.004833759,Mandera County,All
+2001,50%,0.004802318,Mandera County,All
+2002,50%,0.004878377,Mandera County,All
+2003,50%,0.004916368,Mandera County,All
+2004,50%,0.005047258,Mandera County,All
+2005,50%,0.005269816,Mandera County,All
+2006,50%,0.005579745,Mandera County,All
+2007,50%,0.005945985,Mandera County,All
+2008,50%,0.006433663,Mandera County,All
+2009,50%,0.00718954,Mandera County,All
+2010,50%,0.008222001,Mandera County,All
+2011,50%,0.009517451,Mandera County,All
+2012,50%,0.011112905,Mandera County,All
+2013,50%,0.012980428,Mandera County,All
+2014,50%,0.015009453,Mandera County,All
+2015,50%,0.016710783,Mandera County,All
+2016,50%,0.018503569,Mandera County,All
+2017,50%,0.020017472,Mandera County,All
+2018,50%,0.021448701,Mandera County,All
+2019,50%,0.022936208,Mandera County,All
+2020,50%,0.024313391,Mandera County,All
+2021,50%,0.02593572,Mandera County,All
+2022,50%,0.027695745,Mandera County,All
+2023,50%,0.029499258,Mandera County,All
+2024,50%,0.031484055,Mandera County,All
+2025,50%,0.03336227,Mandera County,All
+2026,50%,0.035371085,Mandera County,All
+2027,50%,0.037440542,Mandera County,All
+2028,50%,0.039876002,Mandera County,All
+2029,50%,0.04236806,Mandera County,All
+2030,50%,0.045231846,Mandera County,All
+2000,50%,0.012613387,Marsabit County,All
+2001,50%,0.012889993,Marsabit County,All
+2002,50%,0.013271535,Marsabit County,All
+2003,50%,0.013821038,Marsabit County,All
+2004,50%,0.01473228,Marsabit County,All
+2005,50%,0.015933309,Marsabit County,All
+2006,50%,0.017291253,Marsabit County,All
+2007,50%,0.019071416,Marsabit County,All
+2008,50%,0.021337945,Marsabit County,All
+2009,50%,0.025482588,Marsabit County,All
+2010,50%,0.031252717,Marsabit County,All
+2011,50%,0.038984236,Marsabit County,All
+2012,50%,0.048874706,Marsabit County,All
+2013,50%,0.060720475,Marsabit County,All
+2014,50%,0.073666243,Marsabit County,All
+2015,50%,0.083697221,Marsabit County,All
+2016,50%,0.092480237,Marsabit County,All
+2017,50%,0.099788396,Marsabit County,All
+2018,50%,0.107700289,Marsabit County,All
+2019,50%,0.115579208,Marsabit County,All
+2020,50%,0.122907906,Marsabit County,All
+2021,50%,0.131069056,Marsabit County,All
+2022,50%,0.139117562,Marsabit County,All
+2023,50%,0.1465163,Marsabit County,All
+2024,50%,0.155007281,Marsabit County,All
+2025,50%,0.163058328,Marsabit County,All
+2026,50%,0.17162496,Marsabit County,All
+2027,50%,0.180858787,Marsabit County,All
+2028,50%,0.188959105,Marsabit County,All
+2029,50%,0.198734304,Marsabit County,All
+2030,50%,0.208122838,Marsabit County,All
+2000,50%,0.371633452,Meru County,All
+2001,50%,0.380860401,Meru County,All
+2002,50%,0.389786847,Meru County,All
+2003,50%,0.3959905,Meru County,All
+2004,50%,0.395607816,Meru County,All
+2005,50%,0.394129176,Meru County,All
+2006,50%,0.393042913,Meru County,All
+2007,50%,0.393829132,Meru County,All
+2008,50%,0.398846605,Meru County,All
+2009,50%,0.416762168,Meru County,All
+2010,50%,0.437428049,Meru County,All
+2011,50%,0.460647677,Meru County,All
+2012,50%,0.483557993,Meru County,All
+2013,50%,0.50517983,Meru County,All
+2014,50%,0.523458913,Meru County,All
+2015,50%,0.533116829,Meru County,All
+2016,50%,0.538065547,Meru County,All
+2017,50%,0.540624801,Meru County,All
+2018,50%,0.543234825,Meru County,All
+2019,50%,0.544621524,Meru County,All
+2020,50%,0.546374999,Meru County,All
+2021,50%,0.546444212,Meru County,All
+2022,50%,0.548560583,Meru County,All
+2023,50%,0.549238487,Meru County,All
+2024,50%,0.549120491,Meru County,All
+2025,50%,0.550940938,Meru County,All
+2026,50%,0.551854569,Meru County,All
+2027,50%,0.554106485,Meru County,All
+2028,50%,0.556994503,Meru County,All
+2029,50%,0.558408247,Meru County,All
+2030,50%,0.560803299,Meru County,All
+2000,50%,0.120040943,Migori County,All
+2001,50%,0.125067256,Migori County,All
+2002,50%,0.130678839,Migori County,All
+2003,50%,0.137864484,Migori County,All
+2004,50%,0.1459322,Migori County,All
+2005,50%,0.155935642,Migori County,All
+2006,50%,0.167178169,Migori County,All
+2007,50%,0.179837903,Migori County,All
+2008,50%,0.194474096,Migori County,All
+2009,50%,0.214276381,Migori County,All
+2010,50%,0.234803145,Migori County,All
+2011,50%,0.256302373,Migori County,All
+2012,50%,0.27922511,Migori County,All
+2013,50%,0.299972125,Migori County,All
+2014,50%,0.319756977,Migori County,All
+2015,50%,0.331753348,Migori County,All
+2016,50%,0.341713808,Migori County,All
+2017,50%,0.350705947,Migori County,All
+2018,50%,0.357426805,Migori County,All
+2019,50%,0.364453663,Migori County,All
+2020,50%,0.370886202,Migori County,All
+2021,50%,0.376824124,Migori County,All
+2022,50%,0.382650077,Migori County,All
+2023,50%,0.389648434,Migori County,All
+2024,50%,0.394826499,Migori County,All
+2025,50%,0.400189566,Migori County,All
+2026,50%,0.405040102,Migori County,All
+2027,50%,0.410012557,Migori County,All
+2028,50%,0.413816115,Migori County,All
+2029,50%,0.420180874,Migori County,All
+2030,50%,0.424629302,Migori County,All
+2000,50%,0.169795123,Mombasa County,All
+2001,50%,0.177854138,Mombasa County,All
+2002,50%,0.186234997,Mombasa County,All
+2003,50%,0.195672806,Mombasa County,All
+2004,50%,0.208852071,Mombasa County,All
+2005,50%,0.222148585,Mombasa County,All
+2006,50%,0.236988173,Mombasa County,All
+2007,50%,0.25148305,Mombasa County,All
+2008,50%,0.267089769,Mombasa County,All
+2009,50%,0.282034516,Mombasa County,All
+2010,50%,0.297504228,Mombasa County,All
+2011,50%,0.31335908,Mombasa County,All
+2012,50%,0.327807464,Mombasa County,All
+2013,50%,0.341533681,Mombasa County,All
+2014,50%,0.352316716,Mombasa County,All
+2015,50%,0.36455989,Mombasa County,All
+2016,50%,0.373978984,Mombasa County,All
+2017,50%,0.381948442,Mombasa County,All
+2018,50%,0.388927252,Mombasa County,All
+2019,50%,0.39573518,Mombasa County,All
+2020,50%,0.402650826,Mombasa County,All
+2021,50%,0.408043596,Mombasa County,All
+2022,50%,0.41390276,Mombasa County,All
+2023,50%,0.420105431,Mombasa County,All
+2024,50%,0.425152601,Mombasa County,All
+2025,50%,0.431531521,Mombasa County,All
+2026,50%,0.436528169,Mombasa County,All
+2027,50%,0.441060924,Mombasa County,All
+2028,50%,0.447316607,Mombasa County,All
+2029,50%,0.451680415,Mombasa County,All
+2030,50%,0.457210496,Mombasa County,All
+2000,50%,0.337815682,Muranga County,All
+2001,50%,0.348915441,Muranga County,All
+2002,50%,0.358266319,Muranga County,All
+2003,50%,0.367018923,Muranga County,All
+2004,50%,0.375191452,Muranga County,All
+2005,50%,0.381674967,Muranga County,All
+2006,50%,0.388508862,Muranga County,All
+2007,50%,0.395682004,Muranga County,All
+2008,50%,0.402271884,Muranga County,All
+2009,50%,0.407784837,Muranga County,All
+2010,50%,0.413574955,Muranga County,All
+2011,50%,0.419100539,Muranga County,All
+2012,50%,0.424340744,Muranga County,All
+2013,50%,0.428727456,Muranga County,All
+2014,50%,0.432345577,Muranga County,All
+2015,50%,0.436353243,Muranga County,All
+2016,50%,0.440090748,Muranga County,All
+2017,50%,0.443017804,Muranga County,All
+2018,50%,0.44485326,Muranga County,All
+2019,50%,0.447706831,Muranga County,All
+2020,50%,0.448764167,Muranga County,All
+2021,50%,0.451502173,Muranga County,All
+2022,50%,0.451828228,Muranga County,All
+2023,50%,0.453928306,Muranga County,All
+2024,50%,0.456733073,Muranga County,All
+2025,50%,0.459128559,Muranga County,All
+2026,50%,0.461744629,Muranga County,All
+2027,50%,0.463644695,Muranga County,All
+2028,50%,0.465819021,Muranga County,All
+2029,50%,0.467689976,Muranga County,All
+2030,50%,0.46993486,Muranga County,All
+2000,50%,0.309499532,Nairobi County,All
+2001,50%,0.319914184,Nairobi County,All
+2002,50%,0.329063851,Nairobi County,All
+2003,50%,0.338455088,Nairobi County,All
+2004,50%,0.344798272,Nairobi County,All
+2005,50%,0.350317281,Nairobi County,All
+2006,50%,0.356477856,Nairobi County,All
+2007,50%,0.362479688,Nairobi County,All
+2008,50%,0.369990025,Nairobi County,All
+2009,50%,0.3810849,Nairobi County,All
+2010,50%,0.391663667,Nairobi County,All
+2011,50%,0.403205948,Nairobi County,All
+2012,50%,0.414551326,Nairobi County,All
+2013,50%,0.425375381,Nairobi County,All
+2014,50%,0.435062034,Nairobi County,All
+2015,50%,0.443777988,Nairobi County,All
+2016,50%,0.452673905,Nairobi County,All
+2017,50%,0.464117407,Nairobi County,All
+2018,50%,0.468393242,Nairobi County,All
+2019,50%,0.471557779,Nairobi County,All
+2020,50%,0.475124743,Nairobi County,All
+2021,50%,0.477940543,Nairobi County,All
+2022,50%,0.480290039,Nairobi County,All
+2023,50%,0.482792178,Nairobi County,All
+2024,50%,0.486945522,Nairobi County,All
+2025,50%,0.489504685,Nairobi County,All
+2026,50%,0.492211218,Nairobi County,All
+2027,50%,0.495506466,Nairobi County,All
+2028,50%,0.497520518,Nairobi County,All
+2029,50%,0.501331636,Nairobi County,All
+2030,50%,0.504282512,Nairobi County,All
+2000,50%,0.187868436,Nakuru County,All
+2001,50%,0.197860046,Nakuru County,All
+2002,50%,0.207814889,Nakuru County,All
+2003,50%,0.217923005,Nakuru County,All
+2004,50%,0.230030865,Nakuru County,All
+2005,50%,0.241970215,Nakuru County,All
+2006,50%,0.254949103,Nakuru County,All
+2007,50%,0.267417348,Nakuru County,All
+2008,50%,0.280447978,Nakuru County,All
+2009,50%,0.293894038,Nakuru County,All
+2010,50%,0.307462321,Nakuru County,All
+2011,50%,0.321112187,Nakuru County,All
+2012,50%,0.333905188,Nakuru County,All
+2013,50%,0.346000383,Nakuru County,All
+2014,50%,0.357034774,Nakuru County,All
+2015,50%,0.364686776,Nakuru County,All
+2016,50%,0.369426791,Nakuru County,All
+2017,50%,0.374334711,Nakuru County,All
+2018,50%,0.380140535,Nakuru County,All
+2019,50%,0.384514704,Nakuru County,All
+2020,50%,0.388451099,Nakuru County,All
+2021,50%,0.392788934,Nakuru County,All
+2022,50%,0.396725206,Nakuru County,All
+2023,50%,0.400796176,Nakuru County,All
+2024,50%,0.404481239,Nakuru County,All
+2025,50%,0.408475493,Nakuru County,All
+2026,50%,0.411329428,Nakuru County,All
+2027,50%,0.414581668,Nakuru County,All
+2028,50%,0.419411584,Nakuru County,All
+2029,50%,0.422996844,Nakuru County,All
+2030,50%,0.425212276,Nakuru County,All
+2000,50%,0.164656616,Nandi County,All
+2001,50%,0.174946831,Nandi County,All
+2002,50%,0.186574369,Nandi County,All
+2003,50%,0.197969641,Nandi County,All
+2004,50%,0.21377704,Nandi County,All
+2005,50%,0.23025978,Nandi County,All
+2006,50%,0.247395747,Nandi County,All
+2007,50%,0.26549824,Nandi County,All
+2008,50%,0.286438745,Nandi County,All
+2009,50%,0.311777167,Nandi County,All
+2010,50%,0.339840569,Nandi County,All
+2011,50%,0.369432347,Nandi County,All
+2012,50%,0.398525094,Nandi County,All
+2013,50%,0.426616053,Nandi County,All
+2014,50%,0.453340908,Nandi County,All
+2015,50%,0.477259169,Nandi County,All
+2016,50%,0.483326284,Nandi County,All
+2017,50%,0.483081658,Nandi County,All
+2018,50%,0.487200259,Nandi County,All
+2019,50%,0.49305199,Nandi County,All
+2020,50%,0.508191474,Nandi County,All
+2021,50%,0.517382645,Nandi County,All
+2022,50%,0.522685364,Nandi County,All
+2023,50%,0.527382643,Nandi County,All
+2024,50%,0.529741527,Nandi County,All
+2025,50%,0.532689605,Nandi County,All
+2026,50%,0.535282864,Nandi County,All
+2027,50%,0.537701103,Nandi County,All
+2028,50%,0.540215944,Nandi County,All
+2029,50%,0.542168853,Nandi County,All
+2030,50%,0.54430151,Nandi County,All
+2000,50%,0.122924253,Narok County,All
+2001,50%,0.129569728,Narok County,All
+2002,50%,0.136629228,Narok County,All
+2003,50%,0.145250315,Narok County,All
+2004,50%,0.155476389,Narok County,All
+2005,50%,0.166677643,Narok County,All
+2006,50%,0.178603622,Narok County,All
+2007,50%,0.191325987,Narok County,All
+2008,50%,0.204484829,Narok County,All
+2009,50%,0.217182773,Narok County,All
+2010,50%,0.23021384,Narok County,All
+2011,50%,0.243431444,Narok County,All
+2012,50%,0.256629764,Narok County,All
+2013,50%,0.269383194,Narok County,All
+2014,50%,0.281545372,Narok County,All
+2015,50%,0.29113969,Narok County,All
+2016,50%,0.300050419,Narok County,All
+2017,50%,0.308314618,Narok County,All
+2018,50%,0.315792408,Narok County,All
+2019,50%,0.323789958,Narok County,All
+2020,50%,0.331267308,Narok County,All
+2021,50%,0.337974504,Narok County,All
+2022,50%,0.344818126,Narok County,All
+2023,50%,0.352717792,Narok County,All
+2024,50%,0.358600953,Narok County,All
+2025,50%,0.366424074,Narok County,All
+2026,50%,0.372063812,Narok County,All
+2027,50%,0.378297558,Narok County,All
+2028,50%,0.382123479,Narok County,All
+2029,50%,0.388148648,Narok County,All
+2030,50%,0.393160564,Narok County,All
+2000,50%,0.210112635,Nyamira County,All
+2001,50%,0.219491287,Nyamira County,All
+2002,50%,0.22886585,Nyamira County,All
+2003,50%,0.238401787,Nyamira County,All
+2004,50%,0.244750555,Nyamira County,All
+2005,50%,0.251500808,Nyamira County,All
+2006,50%,0.2592836,Nyamira County,All
+2007,50%,0.269403158,Nyamira County,All
+2008,50%,0.283046006,Nyamira County,All
+2009,50%,0.310557473,Nyamira County,All
+2010,50%,0.341442043,Nyamira County,All
+2011,50%,0.37318812,Nyamira County,All
+2012,50%,0.403771497,Nyamira County,All
+2013,50%,0.432951827,Nyamira County,All
+2014,50%,0.458209664,Nyamira County,All
+2015,50%,0.479386714,Nyamira County,All
+2016,50%,0.477091574,Nyamira County,All
+2017,50%,0.464091975,Nyamira County,All
+2018,50%,0.457455586,Nyamira County,All
+2019,50%,0.454199477,Nyamira County,All
+2020,50%,0.45335494,Nyamira County,All
+2021,50%,0.455707484,Nyamira County,All
+2022,50%,0.458116423,Nyamira County,All
+2023,50%,0.460840896,Nyamira County,All
+2024,50%,0.46436107,Nyamira County,All
+2025,50%,0.46672618,Nyamira County,All
+2026,50%,0.469697775,Nyamira County,All
+2027,50%,0.472790004,Nyamira County,All
+2028,50%,0.476428295,Nyamira County,All
+2029,50%,0.480179004,Nyamira County,All
+2030,50%,0.48301455,Nyamira County,All
+2000,50%,0.218777842,Nyandarua County,All
+2001,50%,0.228267168,Nyandarua County,All
+2002,50%,0.238325335,Nyandarua County,All
+2003,50%,0.248307018,Nyandarua County,All
+2004,50%,0.262752679,Nyandarua County,All
+2005,50%,0.27577898,Nyandarua County,All
+2006,50%,0.289319105,Nyandarua County,All
+2007,50%,0.301892508,Nyandarua County,All
+2008,50%,0.315974478,Nyandarua County,All
+2009,50%,0.328547666,Nyandarua County,All
+2010,50%,0.341601208,Nyandarua County,All
+2011,50%,0.355224954,Nyandarua County,All
+2012,50%,0.367779,Nyandarua County,All
+2013,50%,0.3793616,Nyandarua County,All
+2014,50%,0.388493479,Nyandarua County,All
+2015,50%,0.394772339,Nyandarua County,All
+2016,50%,0.399736439,Nyandarua County,All
+2017,50%,0.404171728,Nyandarua County,All
+2018,50%,0.407356948,Nyandarua County,All
+2019,50%,0.410485835,Nyandarua County,All
+2020,50%,0.413627579,Nyandarua County,All
+2021,50%,0.416202261,Nyandarua County,All
+2022,50%,0.418394332,Nyandarua County,All
+2023,50%,0.421158018,Nyandarua County,All
+2024,50%,0.423566993,Nyandarua County,All
+2025,50%,0.426208703,Nyandarua County,All
+2026,50%,0.428426877,Nyandarua County,All
+2027,50%,0.430171698,Nyandarua County,All
+2028,50%,0.434178646,Nyandarua County,All
+2029,50%,0.436295217,Nyandarua County,All
+2030,50%,0.440609423,Nyandarua County,All
+2000,50%,0.360812776,Nyeri County,All
+2001,50%,0.371223933,Nyeri County,All
+2002,50%,0.38087647,Nyeri County,All
+2003,50%,0.389643759,Nyeri County,All
+2004,50%,0.39923862,Nyeri County,All
+2005,50%,0.408788444,Nyeri County,All
+2006,50%,0.417940482,Nyeri County,All
+2007,50%,0.427527366,Nyeri County,All
+2008,50%,0.436584497,Nyeri County,All
+2009,50%,0.442195062,Nyeri County,All
+2010,50%,0.447192465,Nyeri County,All
+2011,50%,0.452265784,Nyeri County,All
+2012,50%,0.457103136,Nyeri County,All
+2013,50%,0.461085145,Nyeri County,All
+2014,50%,0.464018553,Nyeri County,All
+2015,50%,0.467838854,Nyeri County,All
+2016,50%,0.470215628,Nyeri County,All
+2017,50%,0.473514228,Nyeri County,All
+2018,50%,0.475612264,Nyeri County,All
+2019,50%,0.477912839,Nyeri County,All
+2020,50%,0.479258947,Nyeri County,All
+2021,50%,0.482193687,Nyeri County,All
+2022,50%,0.48293769,Nyeri County,All
+2023,50%,0.485409127,Nyeri County,All
+2024,50%,0.486828249,Nyeri County,All
+2025,50%,0.488718667,Nyeri County,All
+2026,50%,0.490312418,Nyeri County,All
+2027,50%,0.492991022,Nyeri County,All
+2028,50%,0.494625008,Nyeri County,All
+2029,50%,0.496571234,Nyeri County,All
+2030,50%,0.498210741,Nyeri County,All
+2000,50%,0.083664624,Samburu County,All
+2001,50%,0.086883096,Samburu County,All
+2002,50%,0.090496329,Samburu County,All
+2003,50%,0.095283127,Samburu County,All
+2004,50%,0.102448764,Samburu County,All
+2005,50%,0.11071758,Samburu County,All
+2006,50%,0.120271445,Samburu County,All
+2007,50%,0.130177551,Samburu County,All
+2008,50%,0.139105925,Samburu County,All
+2009,50%,0.145301609,Samburu County,All
+2010,50%,0.149814845,Samburu County,All
+2011,50%,0.153823376,Samburu County,All
+2012,50%,0.157259065,Samburu County,All
+2013,50%,0.161338288,Samburu County,All
+2014,50%,0.165343762,Samburu County,All
+2015,50%,0.171084703,Samburu County,All
+2016,50%,0.177812163,Samburu County,All
+2017,50%,0.183932865,Samburu County,All
+2018,50%,0.191353394,Samburu County,All
+2019,50%,0.198269757,Samburu County,All
+2020,50%,0.204861075,Samburu County,All
+2021,50%,0.212691284,Samburu County,All
+2022,50%,0.219694261,Samburu County,All
+2023,50%,0.226907828,Samburu County,All
+2024,50%,0.234514403,Samburu County,All
+2025,50%,0.240623921,Samburu County,All
+2026,50%,0.24625036,Samburu County,All
+2027,50%,0.253647833,Samburu County,All
+2028,50%,0.261382381,Samburu County,All
+2029,50%,0.268489189,Samburu County,All
+2030,50%,0.274895773,Samburu County,All
+2000,50%,0.119127957,Siaya County,All
+2001,50%,0.128325863,Siaya County,All
+2002,50%,0.138336691,Siaya County,All
+2003,50%,0.150134799,Siaya County,All
+2004,50%,0.16889962,Siaya County,All
+2005,50%,0.190818237,Siaya County,All
+2006,50%,0.214854861,Siaya County,All
+2007,50%,0.240312338,Siaya County,All
+2008,50%,0.266384043,Siaya County,All
+2009,50%,0.292544458,Siaya County,All
+2010,50%,0.316981435,Siaya County,All
+2011,50%,0.340697931,Siaya County,All
+2012,50%,0.36446345,Siaya County,All
+2013,50%,0.387967639,Siaya County,All
+2014,50%,0.409379315,Siaya County,All
+2015,50%,0.430350367,Siaya County,All
+2016,50%,0.435261749,Siaya County,All
+2017,50%,0.434229585,Siaya County,All
+2018,50%,0.429210178,Siaya County,All
+2019,50%,0.421911282,Siaya County,All
+2020,50%,0.422661566,Siaya County,All
+2021,50%,0.425888913,Siaya County,All
+2022,50%,0.430301646,Siaya County,All
+2023,50%,0.433994939,Siaya County,All
+2024,50%,0.438790675,Siaya County,All
+2025,50%,0.443562921,Siaya County,All
+2026,50%,0.447465841,Siaya County,All
+2027,50%,0.453720702,Siaya County,All
+2028,50%,0.457911961,Siaya County,All
+2029,50%,0.461243674,Siaya County,All
+2030,50%,0.463854599,Siaya County,All
+2000,50%,0.146623176,Taita Taveta County,All
+2001,50%,0.155996319,Taita Taveta County,All
+2002,50%,0.166473005,Taita Taveta County,All
+2003,50%,0.17743025,Taita Taveta County,All
+2004,50%,0.198219969,Taita Taveta County,All
+2005,50%,0.220762956,Taita Taveta County,All
+2006,50%,0.245527594,Taita Taveta County,All
+2007,50%,0.270414173,Taita Taveta County,All
+2008,50%,0.29613,Taita Taveta County,All
+2009,50%,0.318276744,Taita Taveta County,All
+2010,50%,0.339778654,Taita Taveta County,All
+2011,50%,0.361542567,Taita Taveta County,All
+2012,50%,0.381315947,Taita Taveta County,All
+2013,50%,0.399380335,Taita Taveta County,All
+2014,50%,0.414329448,Taita Taveta County,All
+2015,50%,0.42458628,Taita Taveta County,All
+2016,50%,0.431639886,Taita Taveta County,All
+2017,50%,0.43797951,Taita Taveta County,All
+2018,50%,0.442476594,Taita Taveta County,All
+2019,50%,0.446647899,Taita Taveta County,All
+2020,50%,0.450504779,Taita Taveta County,All
+2021,50%,0.453615201,Taita Taveta County,All
+2022,50%,0.457157884,Taita Taveta County,All
+2023,50%,0.460422521,Taita Taveta County,All
+2024,50%,0.464077719,Taita Taveta County,All
+2025,50%,0.468403534,Taita Taveta County,All
+2026,50%,0.470602696,Taita Taveta County,All
+2027,50%,0.47419707,Taita Taveta County,All
+2028,50%,0.476817967,Taita Taveta County,All
+2029,50%,0.47990521,Taita Taveta County,All
+2030,50%,0.482166976,Taita Taveta County,All
+2000,50%,0.051623393,Tana River County,All
+2001,50%,0.054705674,Tana River County,All
+2002,50%,0.058081994,Tana River County,All
+2003,50%,0.062673651,Tana River County,All
+2004,50%,0.071864278,Tana River County,All
+2005,50%,0.08465973,Tana River County,All
+2006,50%,0.100306166,Tana River County,All
+2007,50%,0.118128688,Tana River County,All
+2008,50%,0.135804994,Tana River County,All
+2009,50%,0.144944636,Tana River County,All
+2010,50%,0.150843882,Tana River County,All
+2011,50%,0.154810633,Tana River County,All
+2012,50%,0.15775307,Tana River County,All
+2013,50%,0.160378281,Tana River County,All
+2014,50%,0.164042613,Tana River County,All
+2015,50%,0.170777301,Tana River County,All
+2016,50%,0.178476454,Tana River County,All
+2017,50%,0.186054211,Tana River County,All
+2018,50%,0.194545152,Tana River County,All
+2019,50%,0.202653798,Tana River County,All
+2020,50%,0.210290685,Tana River County,All
+2021,50%,0.218879825,Tana River County,All
+2022,50%,0.227751155,Tana River County,All
+2023,50%,0.234996336,Tana River County,All
+2024,50%,0.243314966,Tana River County,All
+2025,50%,0.252171403,Tana River County,All
+2026,50%,0.261927772,Tana River County,All
+2027,50%,0.269266378,Tana River County,All
+2028,50%,0.277690526,Tana River County,All
+2029,50%,0.286090339,Tana River County,All
+2030,50%,0.295273259,Tana River County,All
+2000,50%,0.380495025,Tharaka Nithi County,All
+2001,50%,0.390084568,Tharaka Nithi County,All
+2002,50%,0.398891461,Tharaka Nithi County,All
+2003,50%,0.406885467,Tharaka Nithi County,All
+2004,50%,0.409887369,Tharaka Nithi County,All
+2005,50%,0.411414572,Tharaka Nithi County,All
+2006,50%,0.413664104,Tharaka Nithi County,All
+2007,50%,0.415955526,Tharaka Nithi County,All
+2008,50%,0.420272902,Tharaka Nithi County,All
+2009,50%,0.429327529,Tharaka Nithi County,All
+2010,50%,0.439128133,Tharaka Nithi County,All
+2011,50%,0.450794687,Tharaka Nithi County,All
+2012,50%,0.462335378,Tharaka Nithi County,All
+2013,50%,0.473496355,Tharaka Nithi County,All
+2014,50%,0.483328453,Tharaka Nithi County,All
+2015,50%,0.489249056,Tharaka Nithi County,All
+2016,50%,0.493215059,Tharaka Nithi County,All
+2017,50%,0.495910782,Tharaka Nithi County,All
+2018,50%,0.499226837,Tharaka Nithi County,All
+2019,50%,0.500832883,Tharaka Nithi County,All
+2020,50%,0.502563402,Tharaka Nithi County,All
+2021,50%,0.503398539,Tharaka Nithi County,All
+2022,50%,0.504900965,Tharaka Nithi County,All
+2023,50%,0.507267003,Tharaka Nithi County,All
+2024,50%,0.509835762,Tharaka Nithi County,All
+2025,50%,0.512279403,Tharaka Nithi County,All
+2026,50%,0.514456521,Tharaka Nithi County,All
+2027,50%,0.517513846,Tharaka Nithi County,All
+2028,50%,0.520370447,Tharaka Nithi County,All
+2029,50%,0.521829445,Tharaka Nithi County,All
+2030,50%,0.524519053,Tharaka Nithi County,All
+2000,50%,0.122128241,Trans Nzoia County,All
+2001,50%,0.130843497,Trans Nzoia County,All
+2002,50%,0.141117084,Trans Nzoia County,All
+2003,50%,0.153826717,Trans Nzoia County,All
+2004,50%,0.174432444,Trans Nzoia County,All
+2005,50%,0.198834229,Trans Nzoia County,All
+2006,50%,0.226199242,Trans Nzoia County,All
+2007,50%,0.254947284,Trans Nzoia County,All
+2008,50%,0.283814677,Trans Nzoia County,All
+2009,50%,0.307423173,Trans Nzoia County,All
+2010,50%,0.330084392,Trans Nzoia County,All
+2011,50%,0.353174174,Trans Nzoia County,All
+2012,50%,0.377271339,Trans Nzoia County,All
+2013,50%,0.401288058,Trans Nzoia County,All
+2014,50%,0.42196489,Trans Nzoia County,All
+2015,50%,0.434837829,Trans Nzoia County,All
+2016,50%,0.444621593,Trans Nzoia County,All
+2017,50%,0.452298626,Trans Nzoia County,All
+2018,50%,0.458691873,Trans Nzoia County,All
+2019,50%,0.464686816,Trans Nzoia County,All
+2020,50%,0.470690777,Trans Nzoia County,All
+2021,50%,0.475307067,Trans Nzoia County,All
+2022,50%,0.479789088,Trans Nzoia County,All
+2023,50%,0.484495154,Trans Nzoia County,All
+2024,50%,0.488325102,Trans Nzoia County,All
+2025,50%,0.492420957,Trans Nzoia County,All
+2026,50%,0.496934401,Trans Nzoia County,All
+2027,50%,0.501343855,Trans Nzoia County,All
+2028,50%,0.506157542,Trans Nzoia County,All
+2029,50%,0.510630316,Trans Nzoia County,All
+2030,50%,0.514241637,Trans Nzoia County,All
+2000,50%,0.009734503,Turkana County,All
+2001,50%,0.01014556,Turkana County,All
+2002,50%,0.010618234,Turkana County,All
+2003,50%,0.011249891,Turkana County,All
+2004,50%,0.012602227,Turkana County,All
+2005,50%,0.014280396,Turkana County,All
+2006,50%,0.016351931,Turkana County,All
+2007,50%,0.018699482,Turkana County,All
+2008,50%,0.021620512,Turkana County,All
+2009,50%,0.026267916,Turkana County,All
+2010,50%,0.032378639,Turkana County,All
+2011,50%,0.040354628,Turkana County,All
+2012,50%,0.049911341,Turkana County,All
+2013,50%,0.06084786,Turkana County,All
+2014,50%,0.071831355,Turkana County,All
+2015,50%,0.0799986,Turkana County,All
+2016,50%,0.086906299,Turkana County,All
+2017,50%,0.093494178,Turkana County,All
+2018,50%,0.099977214,Turkana County,All
+2019,50%,0.105961768,Turkana County,All
+2020,50%,0.111797176,Turkana County,All
+2021,50%,0.11796009,Turkana County,All
+2022,50%,0.124877672,Turkana County,All
+2023,50%,0.131456275,Turkana County,All
+2024,50%,0.13826686,Turkana County,All
+2025,50%,0.144369227,Turkana County,All
+2026,50%,0.15126918,Turkana County,All
+2027,50%,0.158324444,Turkana County,All
+2028,50%,0.165684228,Turkana County,All
+2029,50%,0.172737708,Turkana County,All
+2030,50%,0.179441979,Turkana County,All
+2000,50%,0.182053435,Uasin Gishu County,All
+2001,50%,0.192607118,Uasin Gishu County,All
+2002,50%,0.202904455,Uasin Gishu County,All
+2003,50%,0.213961012,Uasin Gishu County,All
+2004,50%,0.225375214,Uasin Gishu County,All
+2005,50%,0.237125786,Uasin Gishu County,All
+2006,50%,0.24982956,Uasin Gishu County,All
+2007,50%,0.262850458,Uasin Gishu County,All
+2008,50%,0.280133314,Uasin Gishu County,All
+2009,50%,0.301458123,Uasin Gishu County,All
+2010,50%,0.325180759,Uasin Gishu County,All
+2011,50%,0.350530532,Uasin Gishu County,All
+2012,50%,0.376998737,Uasin Gishu County,All
+2013,50%,0.401505171,Uasin Gishu County,All
+2014,50%,0.422623968,Uasin Gishu County,All
+2015,50%,0.435486684,Uasin Gishu County,All
+2016,50%,0.443404301,Uasin Gishu County,All
+2017,50%,0.450231337,Uasin Gishu County,All
+2018,50%,0.455361073,Uasin Gishu County,All
+2019,50%,0.459939102,Uasin Gishu County,All
+2020,50%,0.46396469,Uasin Gishu County,All
+2021,50%,0.467089224,Uasin Gishu County,All
+2022,50%,0.471317958,Uasin Gishu County,All
+2023,50%,0.473850953,Uasin Gishu County,All
+2024,50%,0.478370266,Uasin Gishu County,All
+2025,50%,0.480819717,Uasin Gishu County,All
+2026,50%,0.483709914,Uasin Gishu County,All
+2027,50%,0.487272128,Uasin Gishu County,All
+2028,50%,0.489017808,Uasin Gishu County,All
+2029,50%,0.494628684,Uasin Gishu County,All
+2030,50%,0.498730476,Uasin Gishu County,All
+2000,50%,0.174355112,Vihiga County,All
+2001,50%,0.183105583,Vihiga County,All
+2002,50%,0.192652359,Vihiga County,All
+2003,50%,0.203162952,Vihiga County,All
+2004,50%,0.217295184,Vihiga County,All
+2005,50%,0.232838768,Vihiga County,All
+2006,50%,0.249690772,Vihiga County,All
+2007,50%,0.267211132,Vihiga County,All
+2008,50%,0.285407414,Vihiga County,All
+2009,50%,0.303198989,Vihiga County,All
+2010,50%,0.321399221,Vihiga County,All
+2011,50%,0.338629658,Vihiga County,All
+2012,50%,0.355355886,Vihiga County,All
+2013,50%,0.370620124,Vihiga County,All
+2014,50%,0.383292099,Vihiga County,All
+2015,50%,0.391213568,Vihiga County,All
+2016,50%,0.397801309,Vihiga County,All
+2017,50%,0.402706903,Vihiga County,All
+2018,50%,0.408488695,Vihiga County,All
+2019,50%,0.413045903,Vihiga County,All
+2020,50%,0.416923688,Vihiga County,All
+2021,50%,0.420306353,Vihiga County,All
+2022,50%,0.42477158,Vihiga County,All
+2023,50%,0.427319617,Vihiga County,All
+2024,50%,0.431759063,Vihiga County,All
+2025,50%,0.436240314,Vihiga County,All
+2026,50%,0.438815949,Vihiga County,All
+2027,50%,0.441863003,Vihiga County,All
+2028,50%,0.446425662,Vihiga County,All
+2029,50%,0.449365678,Vihiga County,All
+2030,50%,0.452854076,Vihiga County,All
+2000,50%,0.006207222,Wajir County,All
+2001,50%,0.006208239,Wajir County,All
+2002,50%,0.006383799,Wajir County,All
+2003,50%,0.006590237,Wajir County,All
+2004,50%,0.00714907,Wajir County,All
+2005,50%,0.007979137,Wajir County,All
+2006,50%,0.009095971,Wajir County,All
+2007,50%,0.01056642,Wajir County,All
+2008,50%,0.012212284,Wajir County,All
+2009,50%,0.013575084,Wajir County,All
+2010,50%,0.014877566,Wajir County,All
+2011,50%,0.016104009,Wajir County,All
+2012,50%,0.01732577,Wajir County,All
+2013,50%,0.01851797,Wajir County,All
+2014,50%,0.019728732,Wajir County,All
+2015,50%,0.021082621,Wajir County,All
+2016,50%,0.022676079,Wajir County,All
+2017,50%,0.024242681,Wajir County,All
+2018,50%,0.025786023,Wajir County,All
+2019,50%,0.027506662,Wajir County,All
+2020,50%,0.02913155,Wajir County,All
+2021,50%,0.030899661,Wajir County,All
+2022,50%,0.032644826,Wajir County,All
+2023,50%,0.034769456,Wajir County,All
+2024,50%,0.037085747,Wajir County,All
+2025,50%,0.039230779,Wajir County,All
+2026,50%,0.04137824,Wajir County,All
+2027,50%,0.043739187,Wajir County,All
+2028,50%,0.046276287,Wajir County,All
+2029,50%,0.049190171,Wajir County,All
+2030,50%,0.051840613,Wajir County,All
+2000,50%,0.055085243,West Pokot County,All
+2001,50%,0.059609729,West Pokot County,All
+2002,50%,0.064995178,West Pokot County,All
+2003,50%,0.072305823,West Pokot County,All
+2004,50%,0.08945622,West Pokot County,All
+2005,50%,0.110834451,West Pokot County,All
+2006,50%,0.134974457,West Pokot County,All
+2007,50%,0.159286169,West Pokot County,All
+2008,50%,0.178030385,West Pokot County,All
+2009,50%,0.179399843,West Pokot County,All
+2010,50%,0.172856975,West Pokot County,All
+2011,50%,0.16317707,West Pokot County,All
+2012,50%,0.154695316,West Pokot County,All
+2013,50%,0.150023812,West Pokot County,All
+2014,50%,0.152509631,West Pokot County,All
+2015,50%,0.168650173,West Pokot County,All
+2016,50%,0.18790809,West Pokot County,All
+2017,50%,0.198148128,West Pokot County,All
+2018,50%,0.206247375,West Pokot County,All
+2019,50%,0.221718609,West Pokot County,All
+2020,50%,0.23120057,West Pokot County,All
+2021,50%,0.239443473,West Pokot County,All
+2022,50%,0.248013827,West Pokot County,All
+2023,50%,0.255707657,West Pokot County,All
+2024,50%,0.264756922,West Pokot County,All
+2025,50%,0.271474348,West Pokot County,All
+2026,50%,0.27914734,West Pokot County,All
+2027,50%,0.287779466,West Pokot County,All
+2028,50%,0.29491452,West Pokot County,All
+2029,50%,0.302604067,West Pokot County,All
+2030,50%,0.308440176,West Pokot County,All
