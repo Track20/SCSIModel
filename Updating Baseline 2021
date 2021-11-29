@@ -1,0 +1,371 @@
+# Cleaning  for Self Injections Model
+options(java.parameters = "-Xmx8000m")
+library(reshape2)
+library(readr)
+library(tidyr)
+library(dplyr)
+library(xlsx)
+library(ggplot2)
+library(haven)
+library(readxl)
+library(jsonlite) 
+library(data.table)
+library(questionr)
+setwd("C:/Users/KristinBietsch/Files/Track20/Win Requests/Self Injections/Baseline Data Update 080521")
+
+# Country Regions
+regions <- read.csv("Country Regions.csv") %>% rename(ISO=ISONum)
+
+# FP2020 ISO
+iso <- read.csv("FP2020 ISO.csv")
+
+# DHS Surveys
+surveys  <- read.xlsx2("C:/Users/KristinBietsch/files/Desktop/Master DHS Survey List.xlsx",sheetName="Sheet1",startRow=1,header=TRUE,
+                       colClasses = c("character", "character", "character", "numeric",
+                                      "character", "character", "character", "character", "numeric",
+                                      "character", "numeric", "character", "character", "character", "character"));
+dhs_recent <- surveys %>% rename(ISO=ISONum) %>% full_join(iso, by="ISO") %>% filter(FP2020==1) %>% select(-FP2020) %>% group_by(Country) %>% mutate(max=max(StartYear)) %>% filter(max==StartYear) %>% ungroup() %>% select(-max)
+
+###################################################################################
+# Population
+# Women 15-49 by year
+unpd19 <- read_excel("WPP2019_INT_F02A_3_ANNUAL_POPULATION_INDICATORS_FEMALE.xlsx", sheet = "ESTIMATES")
+unpd20 <- read_excel("WPP2019_INT_F02A_3_ANNUAL_POPULATION_INDICATORS_FEMALE.xlsx", sheet = "MEDIUM VARIANT")
+
+unpd19_mat <- as.matrix(unpd19)
+unpd19_clean <- as.data.frame(unpd19_mat[13:18117, c(5, 8, 42)]) %>% rename(ISO=1, Year=2, Pop=3) %>% filter(Year==2019)
+
+unpd20_mat <- as.matrix(unpd20)
+unpd20_clean <- as.data.frame(unpd20_mat[13:20667, c(5, 8, 42)]) %>% rename(ISO=1, Year=2, Pop=3) %>% filter(Year<=2030)
+
+pop <- bind_rows(unpd19_clean, unpd20_clean) %>% 
+  mutate(ISO=as.numeric(as.character(ISO))) %>% 
+  full_join(iso, by="ISO") %>% filter(FP2020==1) %>% 
+  select(-FP2020) %>% mutate(Pop=as.numeric(as.character(Pop))*1000, Year=as.numeric(Year)) %>% 
+  arrange(ISO, Year)
+
+###################################################################################
+# Method Mix
+# updated 080921 
+users <- read.csv("LEAP Method Mix Clean.csv")
+
+
+###################################################################################
+# AW mCPR
+# 2021 FPET Run
+mcpr_full <- read.csv("FPET Master Run 2021.csv")
+ 
+mcpr <- mcpr_full %>% filter(year>=2019 & year<=2030) %>% filter(percentile== "50%"  ) %>% filter(Population=="All") %>% select(isonum, year, contraceptive_use_modern) %>% rename(ISO=isonum, Year=year, mcpr=contraceptive_use_modern) %>% full_join(iso, by="ISO") %>% filter(FP2020==1) %>% select(-FP2020)
+
+
+###################################################################################
+
+# Discontinuation
+# Updated using API
+url<-("http://api.dhsprogram.com/rest/dhs/data?f=json&indicatorIds=FP_DISR_W_ANY&surveyid=all&breakdown=ALL&perpage=20000&APIkey=AVEHTH-279664")
+jsondata<-fromJSON(url) 
+dta<-data.table(jsondata$Data)
+discontinuation<-select(dta, CountryName, SurveyId, Value, CharacteristicLabel)   %>% 
+  filter(CharacteristicLabel=="Pill"  | CharacteristicLabel==  "Injectables"    | CharacteristicLabel==      "Condom" ) %>% 
+  spread(CharacteristicLabel, Value) %>% rename(API_ID=SurveyId) %>% full_join(dhs_recent, by="API_ID") %>% filter(!is.na(ISO)) %>%
+  select(ISO, FullYear, Condom, Injectables, Pill) %>%
+  full_join(iso, by="ISO") %>% select(-FP2020) %>% mutate(discon_inj=Injectables/100,
+                                                          discon_stm=(Pill+Condom)/200) %>%
+  mutate(discon_inj_note=case_when(is.na(discon_inj) ~ "No data, global average" , !is.na(discon_inj) ~ ""),
+         discon_stm_note=case_when(is.na(discon_stm) ~ "No data, global average" , !is.na(discon_stm) ~ ""),
+         discon_inj=case_when(is.na(discon_inj) ~ .4 , !is.na(discon_inj) ~ discon_inj),
+         discon_stm=case_when(is.na(discon_stm) ~ .4 , !is.na(discon_stm) ~ discon_stm) )
+
+# Saving in case
+write.csv(discontinuation, "DiscontinuationDHS080921.csv", na="", row.names = F)
+
+discontinuation_clean <- discontinuation %>% select(ISO, discon_inj, discon_stm, discon_inj_note,  discon_stm_note)
+
+###################################################################################
+
+# Policy
+# Updated using API
+# FP_SRCM_W_PUB	Current users most recent supply or information from a public source	Percentage of women currently using modern contraceptive methods who received their most recent supply or information from a public source
+# FP_SRCM_W_GHC	Current users most recent supply or information from a government health center	Percentage of women currently using modern contraceptive methods who received their most recent supply or information from a government health center
+# FP_SRCM_W_GFW	Current users most recent supply or information from a fieldworker	Percentage of women currently using modern contraceptive methods who received their most recent supply or information from a fieldworker
+url<-("http://api.dhsprogram.com/rest/dhs/data?f=json&indicatorIds=FP_SRCM_W_PUB&surveyid=all&breakdown=ALL&perpage=20000&APIkey=AVEHTH-279664")
+jsondata<-fromJSON(url) 
+dta<-data.table(jsondata$Data)
+public_source<- dta %>% filter( CharacteristicLabel==  "Injectables"    ) %>% select(  SurveyId, Value) %>% rename(Public_Source=Value)
+
+url<-("http://api.dhsprogram.com/rest/dhs/data?f=json&indicatorIds=FP_SRCM_W_GHC&surveyid=all&breakdown=ALL&perpage=20000&APIkey=AVEHTH-279664")
+jsondata<-fromJSON(url) 
+dta<-data.table(jsondata$Data)
+GHC_source <-    dta %>% filter( CharacteristicLabel==  "Injectables"    ) %>% select(  SurveyId, Value) %>% rename(GHC_source=Value)
+
+url<-("http://api.dhsprogram.com/rest/dhs/data?f=json&indicatorIds=FP_SRCM_W_GFW&surveyid=all&breakdown=ALL&perpage=20000&APIkey=AVEHTH-279664")
+jsondata<-fromJSON(url) 
+dta<-data.table(jsondata$Data)
+Fieldworker_source <-    dta %>% filter( CharacteristicLabel==  "Injectables"    ) %>% select(  SurveyId, Value) %>% rename(Fieldworker_source=Value)
+
+
+source_data <- full_join(public_source, GHC_source, by="SurveyId") %>% full_join(Fieldworker_source, by="SurveyId") %>% 
+  mutate(GHC_source = replace_na(GHC_source, 0), Fieldworker_source=replace_na(Fieldworker_source, 0)) %>% 
+  mutate(PSR=case_when(Public_Source<50 ~ 1, Public_Source >=50 & Public_Source <75 ~ 2, Public_Source>75 ~ 3),
+         HC_CBR_total = (GHC_source + Fieldworker_source)/Public_Source,
+         HC_CBR=case_when(HC_CBR_total<.50 ~ 1, HC_CBR_total >=.50 & HC_CBR_total <.75 ~ 2, HC_CBR_total>.75 ~ 3),
+         PSR_pr=case_when(PSR==1 ~ .5 , PSR==2 ~ .8, PSR==3 ~ 1),
+         HCCBR_pr=case_when(HC_CBR==1 ~ .75, HC_CBR==2 ~ .9, HC_CBR==3 ~ 1),
+         policy_pr=PSR_pr*HCCBR_pr,
+         HC_CBR_clean= round(HC_CBR_total*100,1)) %>% rename(API_ID=SurveyId) %>% full_join(surveys, by="API_ID") %>%
+  filter(!is.na(Public_Source)) %>% filter(!is.na(StartYear)) %>%
+  group_by(Name) %>% mutate(max=max(StartYear)) %>% ungroup() %>%
+  filter(StartYear==max) %>% rename(ISO=ISONum) %>% full_join(iso, by="ISO") %>% filter(FP2020==1) %>%
+  select(ISO, policy_pr, Public_Source, HC_CBR_clean) %>% left_join(regions, by="ISO")
+
+region_ave <- source_data %>% filter(!is.na(Public_Source)) %>% group_by(SDG) %>% summarise(policy_pr_mean=mean(policy_pr)) %>% ungroup()
+
+policy <- full_join(source_data, region_ave, by="SDG") %>% mutate(notes=case_when(is.na(policy_pr)~ "regional average"),
+                                                                       scale=case_when(is.na(policy_pr)~ policy_pr_mean, !is.na(policy_pr)~ policy_pr)) %>% 
+  mutate(Country_note = case_when(!is.na(Public_Source)~ paste(Public_Source, "% of Injectables are from the Public Sector and ", HC_CBR_clean, "% of Public Sector Injectables are from Health Centers and Field Workers.", sep=""),
+                                is.na(Public_Source) ~ "Data on public sector distribution is not available, using regional average."))  %>%
+  select( ISO, scale, notes, Public_Source, HC_CBR_clean, Country_note)
+
+# Saving in case
+write.csv(policy, "PolicyDHS080521.csv", na="", row.names = F)
+
+policy_clean <- policy %>%  select( ISO, scale, notes, Country_note)
+
+###################################################################################
+# Discontinued because inconveinent to use- API
+url<-("http://api.dhsprogram.com/rest/dhs/data?f=json&indicatorIds=FP_RDIS_W_INC&surveyid=all&breakdown=ALL&perpage=20000&APIkey=AVEHTH-279664")
+jsondata<-fromJSON(url) 
+dta<-data.table(jsondata$Data)
+inconv<- dta %>% filter( CharacteristicLabel==  "Total"    ) %>% 
+  group_by(CountryName) %>% mutate(max=max(SurveyYear)) %>%
+  ungroup() %>% filter(max==SurveyYear) %>% select(  SurveyId, Value) %>% 
+  rename(Disc_Inconv=Value, API_ID=SurveyId) %>% left_join(surveys, by="API_ID") %>%
+  select(ISONum, FullYear, Disc_Inconv) %>% mutate(Survey=paste(FullYear, "DHS", sep=" ")) %>% select(-FullYear) %>% rename(ISO=ISONum)
+
+
+
+# need reason by region
+inconv_region <- full_join(inconv, regions, by="ISO") %>% filter(!is.na(Disc_Inconv)) %>% group_by(SDG) %>% summarise(Disc_Inconv_Ave=mean(Disc_Inconv))
+
+inconv_full <-full_join(inconv, regions, by="ISO") %>%
+  full_join( inconv_region, by="SDG") %>% 
+  mutate(inconv_note=case_when(is.na(Disc_Inconv)~ "Regional",
+                               !is.na(Disc_Inconv) ~ "National"),
+         Disc_Inconv=case_when(is.na(Disc_Inconv)~ Disc_Inconv_Ave, !is.na(Disc_Inconv)~ Disc_Inconv)) %>%
+  full_join(iso, by="ISO") %>%
+  filter(FP2020==1) %>% 
+  select( ISO, Disc_Inconv, inconv_note)
+
+
+
+# Saving in case
+
+write.csv(inconv_full, "InconvDHS080921.csv", na="", row.names = F)
+
+###################################################################################
+
+# Modern CPR and Injectable
+method <- read.csv("MethodMix080621.csv")
+
+
+method_full <- method %>% rename(ISO=iso) %>% select(-Country) %>% left_join( regions, by=c("ISO")) %>% mutate(share= Injections/mCPR)
+
+africa <- method_full %>% filter(Geographic=="Africa") %>% filter(Country!= "Egypt" & Country!= "Zimbabwe")
+fit <- lm(share ~ mCPR , data=africa)
+africa$distance <- residuals(fit)
+
+levels(as.factor(method_full$Geographic))
+other <- method_full %>% filter( Geographic== "Asia"   | Geographic=="Latin America and the Caribbean" | Geographic== "Oceania"  | Country== "Egypt" | Country== "Zimbabwe")
+fit1 <- lm(share ~ mCPR , data=other)
+other$distance <- residuals(fit1)
+
+distance <- bind_rows(africa, other) %>% select( ISO, distance)
+write.csv(distance, "Distance082321.csv", na="", row.names = F)
+
+###################################################################################
+
+
+
+women_survey <- surveys %>% mutate(IRfile=paste(Survey, ".DTA", sep="")) %>% rename(ISO=ISONum) %>% 
+  left_join(iso, by="ISO") %>% filter(!is.na(FP2020)) %>% group_by(Country) %>% mutate(max=max(StartYear)) %>% ungroup() %>%
+  filter(max==StartYear) %>% select(API_ID, IRfile) 
+
+relevant_df <- setNames(data.frame(matrix(ncol = 2,  nrow = 0)),  c( "Survey", "ReasonNotUsingSI")) %>% mutate(Survey=as.character(Survey), ReasonNotUsingSI=as.numeric(ReasonNotUsingSI)) 
+
+
+for (row in 1:nrow(women_survey)) {
+  women_data <- women_survey$IRfile[row]
+  countryname <- women_survey$API_ID[row]
+  
+  setwd("C:/Users/KristinBietsch/Files/DHSLoop")
+  
+  allwomen <- read_dta(women_data, col_select = any_of(c("v005", "v604", "v605", "v313")))
+  women <- allwomen
+  
+  women$sampleweights <- women$v005/100000
+  
+  if (exists("v604", women) & exists("v605", women) & exists("v313", women)  ) {
+    women <- women %>% mutate(one_year=case_when(v604==0 ~ 1),
+                              one_year=case_when(v605==7 ~ 1,
+                                                 TRUE ~ one_year),
+                              one_year=case_when(v604!=0 ~ 0,
+                                                 is.na(v604) ~ 0,
+                                                 TRUE ~ one_year),
+                              one_year=case_when(v605==4 | v605==5  ~ 0,
+                                                 TRUE ~ one_year),
+                              one_year=case_when(v313==3 ~ NA_real_,
+                                                 TRUE ~ one_year)) %>%
+      mutate(relevant= 1-one_year)
+    
+    
+   relevant <-    as.data.frame(prop.table(wtd.table( women$relevant,  weights=women$sampleweights )))  %>% rename(ReasonNotUsingSI=Freq)   %>% filter(Var1==1) %>% mutate(Survey=countryname) %>% select(Survey, ReasonNotUsingSI)
+   
+   relevant_df <- bind_rows(relevant_df , relevant)
+    
+    
+  }
+  
+}
+
+
+
+reason <- relevant_df %>% rename(API_ID=Survey) %>% left_join(surveys, by="API_ID") %>% rename(ISO=ISONum) %>% select(ISO, API_ID, ReasonNotUsingSI) %>% full_join(iso, by="ISO") %>% select(-FP2020)
+
+
+# Saving in case
+
+write.csv(reason, "ReasonDHS080921.csv", na="", row.names = F)
+
+
+# need reason by region
+reason_region <- full_join(reason, regions, by="ISO") %>% filter(!is.na(ReasonNotUsingSI)) %>% group_by(SDG) %>% summarise(Reason_Ave=mean(ReasonNotUsingSI))
+
+reason_full <-full_join(reason, regions, by="ISO") %>%
+  full_join( reason_region, by="SDG") %>% 
+  mutate(reason_note=case_when(is.na(ReasonNotUsingSI)~ "Regional",
+                                 !is.na(ReasonNotUsingSI) ~ "National"),
+           ReasonNotUsingSI=case_when(is.na(ReasonNotUsingSI)~ Reason_Ave, !is.na(ReasonNotUsingSI)~ ReasonNotUsingSI)) %>%
+  full_join(iso, by="ISO") %>%
+   filter(FP2020==1) %>% 
+  select( ISO, ReasonNotUsingSI, reason_note)
+
+
+# CAN change this
+#regions <- read.csv("Regions.csv")
+#################################################################
+
+# need to interpolate for 2026, 2027, 2028, 2029
+# going to to exponential interpolations
+
+#p2=p1*exp(rt)
+#p2/p1=exp(rt)
+#log(p2/p1)/5=r
+
+users_clean <- users %>% select(-X) %>% filter(Country!="") %>% 
+  gather(Variable, Value, Sterilization_2019:Other_2030) %>% 
+  separate(Variable, c("Method", "Year"), sep="_") %>%
+  mutate(total= 1,
+         method_type= case_when(Method== "Implant" | Method=="IUD"  | Method=="Sterilization" ~ "LTM",
+                                Method== "Condom"  | Method=="EC"  | Method=="LAM" | Method=="Other" | Method=="Pill" ~ "STM",
+                                Method=="Injection"  ~ "Injectable"))
+
+# Just in case it doesnt sum to 1
+users_total <- users_clean %>% group_by(ISO, Year) %>% summarise(Total=sum(Value)) 
+users_type <- users_clean %>% group_by(ISO, Year, method_type) %>% summarise(Total=sum(Value)) %>% spread(method_type, Total)
+
+users_prop <- full_join(users_total, users_type, by=c("ISO", "Year")) %>%
+  mutate(prop_ltm = LTM/Total,
+         prop_stm= STM/Total,
+         prop_Injection= Injectable/Total) %>%
+  full_join(iso, by="ISO") %>%
+  filter(FP2020==1) %>% select(-FP2020, -Total, -Injectable, -LTM, -STM) %>%
+  mutate(Year=as.numeric(Year))
+
+
+
+
+####################################################################
+
+
+
+
+data <- full_join(mcpr, users_prop, by=c("ISO", "Year")) %>% full_join(pop, by=c("ISO", "Year"))
+
+
+total_users <- data %>% mutate(LTM = mcpr * prop_ltm * Pop,
+                               STM = mcpr * prop_stm * Pop,
+                               Injection = mcpr * prop_Injection * Pop,
+                               NonUser = (1- mcpr) * Pop,
+                               Total=LTM + STM + Injection + NonUser) %>%
+  select(ISO, Year, Total, LTM, STM, Injection, NonUser) 
+
+##############################################################3
+prop.inject.2019 <- users_prop %>% filter(Year==2019) %>% 
+  mutate(high = case_when(prop_Injection >.33 ~ 1,
+                          prop_Injection <= .33 ~0 )) %>%
+  select(ISO, high)
+
+
+
+####################################################################
+# Defining Parameters 
+# From PATH on 6/17
+# 854 Burkina 2019, 2022
+# 404 Kenya 2025, not official- kb 2027
+# 566 Nigeria 2024 2024
+# 686 senegal (was 2018) 2019, 2020
+# 800 Uganda 2019, 2022
+# KB other default will be 2022 and 2025
+
+parameters <- full_join(distance, inconv_full, by="ISO") %>% 
+  mutate(nu_to_si=case_when(distance< -.15 ~ 0.05,
+                            distance >= -.15 & distance < -.05 ~ 0.04,
+                            distance >= -.05 & distance < .05 ~ 0.03,
+                            distance >= .05 & distance < .15 ~ 0.02,
+                            distance>= .15 ~ 0.01)) %>% 
+  mutate(si_bonus_base=case_when(Disc_Inconv< 2 ~ 0.01,
+                                 Disc_Inconv>= 2 &  Disc_Inconv< 4 ~ 0.02,
+                                 Disc_Inconv>=4 ~ 0.03)) %>%
+  mutate(si_bonus=case_when(nu_to_si==0.01 ~ si_bonus_base + 0.01 ,
+                            nu_to_si==0.02 ~ si_bonus_base + 0.005 ,
+                            nu_to_si>=0.03 ~ si_bonus_base)) %>% 
+  mutate(year_sc=case_when(ISO==854 ~ 2019,
+                           ISO==404 ~ 2025,
+                           ISO==566 ~ 2024,
+                           ISO==686 ~ 2019,
+                           ISO==800 ~ 2019,
+                           ISO!=854 & ISO!=404 & ISO!=566 & ISO!=686 & ISO!=800 ~ 2022 ),
+         year_si=case_when(ISO==854 ~ 2022,
+                           ISO==404 ~ 2027,
+                           ISO==566 ~ 2024,
+                           ISO==686 ~ 2020,
+                           ISO==800 ~ 2022,
+                           ISO!=854 & ISO!=404 & ISO!=566 & ISO!=686 & ISO!=800 ~ 2025 ))%>%  
+  mutate(max_siofsc=.4,
+         inj_to_si=.16,	
+         stm_to_si=.08) %>% 
+  select(ISO, inj_to_si, stm_to_si, nu_to_si, si_bonus, max_siofsc, year_sc, year_si)
+
+
+#############################################################################################
+
+# Creating Baseline Data Tab
+baseline <- full_join(total_users, prop.inject.2019, by="ISO") %>%
+  full_join(reason_full, by="ISO") %>% 
+  full_join(policy_clean,  by="ISO") %>%
+  full_join(discontinuation_clean,  by="ISO") %>%
+  full_join(parameters, by="ISO" ) %>%
+  full_join(regions, by="ISO") %>%
+  filter(!is.na(Year)) %>%
+  mutate(CountryYear=paste(Country, Year, sep="")) %>%
+  rename(iso=ISO) %>%
+  filter(iso!=732) %>% # get rid of south africa and western sahara
+  filter(iso!=710) %>%
+  arrange(Country, Year) %>%
+  select(Country,	iso,	Year,	CountryYear,	Total,	LTM,	STM,	Injection,	NonUser,
+         high,	ReasonNotUsingSI,	reason_note,	scale,	notes,
+         discon_inj,	discon_stm,	discon_inj_note,	discon_stm_note,	Country_note,
+         inj_to_si,	stm_to_si,	nu_to_si,	si_bonus,	max_siofsc,	year_sc	, year_si) 
+
+write.csv(baseline, "C:/Users/KristinBietsch/Files/Track20/Win Requests/Self Injections/ModelData082021.csv", row.names = F, na="")
+#################################
